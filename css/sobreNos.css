@@ -1,9 +1,7 @@
 /* TOPO */
 
-section.Principal {
-    background-color: #FECF8C;
+section#a {
+    font: 1,4rem ;
     padding: 1.5rem;
     margin-top: 2rem;
-    border-bottom-left-radius: 25px;
-    border-bottom-right-radius: 25px;
 }
