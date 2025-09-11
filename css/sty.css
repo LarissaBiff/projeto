@@ -26,7 +26,7 @@ header h1 {
 section.Principal {
     background-color: #FECF8C;
     font-size: 1.5rem;
-    padding: 1.5rem;
+    padding: 2rem;
     margin-top: 2rem;
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
@@ -93,7 +93,7 @@ section#d h3 {
 
 section#d a {
     color: black;
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
 
 /*FOOTER*/
