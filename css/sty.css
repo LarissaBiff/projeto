@@ -7,7 +7,7 @@ html {
 
 header {
     background-color: #FFC573;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     border-radius: 0 0 5vw 5vw;
     padding-bottom: 4vw;
     display: flex;
@@ -27,13 +27,15 @@ section.Principal {
     background-color: #FECF8C;
     font-size: 1.3rem;
     padding: 3rem;
+    font-size: 1.5rem;
+    padding: 2rem;
     margin-top: 2rem;
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
 }
 
 section.Principal section#b h5 {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     font-weight: bold;
 }
 
@@ -59,8 +61,8 @@ section.Principal section#c section#a img {
 /*CONTEÚDO*/
 section.alimentacao {
     margin: 4vw;
-    font-size: 1.3rem;
-    line-height: 1.5rem;
+    font-size: 1.5rem;
+    line-height: 1.7rem;
     padding: 10vw;
 }
 
@@ -81,8 +83,8 @@ section.alimentacao p span {
 /*PDF*/
 section#d {
     margin: 4vw;
-    font-size: 1.3rem;
-    line-height: 1.5rem;
+    font-size: 1.5rem;
+    line-height: 1.7rem;
     padding: 10vw;
 }
 
@@ -93,7 +95,7 @@ section#d h3 {
 
 section#d a {
     color: black;
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
 
 /*FOOTER*/
