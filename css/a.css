@@ -1,30 +1,63 @@
 /* FORMATAÇÃO */
 body {
         background-color: #FEE8C7;
+        font-size: 2rem;
+
 }
 
 /* HEADER */
-
 header {
-    background-color: #FFC573;
-    font-size: 1.5rem;
-    border-radius: 0 0 5vw 5vw;
-    padding-bottom: 4vw;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  background: linear-gradient(to bottom, #fbc77f, #f6b655); /* degradê laranja */
+  display: flex;
+  align-items: center;
+  padding: 15px 25px;
+  border-radius: 0 0 40px 40px; /* cantos arredondados na parte de baixo */
+  font-family: "Courier New", monospace;
+  font-weight: bold;
+  gap: 20px; /* espaçamento entre os elementos */
 }
 
+/* Ícone do menu (primeira imagem) */
+header a img {
+  width: 35px;
+  height: auto;
+}
+
+/* Barra separadora (segunda imagem) */
+header img[alt="barra"] {
+  height: 45px;
+  width: auto;
+  margin: 0 10px;
+
+}
+
+/* Logo texto */
 header h1 {
-    font-weight: bold;
-    font-size: 2rem;
+  font-size: 24px;
+  color: #fff;
+  letter-spacing: 2px;
+  margin: 0;
 }
 
 /* TOPO */
+section#Principal p{
+    font-size: 2.3rem;
+}
+section#a h2{
+    font-size: 2.3rem;
+}
+section#a {
+    padding: 3rem;
+    font-size: 1.5rem;
+    padding: 2rem;
+    margin-top: 2rem;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
 
 section#Principal {
     background-color: #FECF8C;
-    font-size: 1.3rem;
+    font-size: 2.3rem;
     padding: 3rem;
     font-size: 1.5rem;
     padding: 2rem;
@@ -43,24 +76,35 @@ section#Priorize img {
     padding: 10px 10px 10px;
     width: 30%;
     align-items: center;
+    display: block;
+    margin-left: 35%;
 }
 
 /*CONTEÚDO*/
 section#Priorize ol li h3 {
     margin: 1vw;
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     font-weight: bold;
     padding: 1vw;
     text-align: center;
 }
+section#Priorize ol li iframe {
+    display: block;
+    margin-left: 5%;
+    padding: 1vw;
+    align-items: center;
+    margin-left: 35%;
+}
+
+
 section#Priorize ol li p {
     margin: 0vw 5vw 2.5vw 5vw;
-    font-size: 1.2rem;
+    font-size: 2.2rem;
     text-align: justify;
 }
 section.alimentacao iframe {
-    padding: 19px 0 25px 0;
-    width: 16vw;
+    margin: 1vw 0 25px 0;
+    width: 50%;
 }
 
 section.alimentacao div.l a {
@@ -74,7 +118,7 @@ section.alimentacao p span {
 
 /*REFERÊNCIAS*/
 section#referencias h3 {
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     line-height: 1.7rem;
     font-weight: bold;
     margin: 0vw 5vw 2.5vw 5vw;
@@ -83,33 +127,91 @@ section#referencias h3 {
 section#referencias a {
     display: block;
     margin: 0vw 5vw 2.5vw 5vw;
-    font-size: 1.2rem;
+    font-size: 2.2rem;
     color: #3F3F80;
     text-decoration: none;
-
- 
-
+}
+section#Priorize ol li ul li {
+    margin: 0vw 5vw 2.5vw 5vw;
+    font-size: 2.2rem;
+    text-align: justify;
 }
 
 section#d a {
     color: black;
-    font-size: 1.2rem;
+    font-size: 2.2rem;
+    margin: 2vw 5vw 2.5vw 5vw;
+    text-align: justify;
 }
-
-/*FOOTER*/
-section.w {
+footer {    
+    text-decoration: none;
     background-color: #8cab55;
     padding: 1.5rem;
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
     margin-top: 2rem;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2.5rem;
+    padding: 2rem 2rem 1rem 2rem;
 }
-section.w div#b p strong{
+
+footer div#b p {
     font-weight: bold;
+    padding: 15px 0 15px 0;
 }
-section.w div#b nav a{
+footer div#b nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 2.5rem;
+    list-style: none;
+    padding-left: 0;
+   
+}
+footer div#c p.l {
+    font-weight: bold;
+    padding: 10px 0 15px 0;
+}
+footer div#c nav ul.menu-rodape {
+    display: flex;
+    justify-content: baseline;
+    gap: 1.5rem;
+    list-style: none;
+    padding-left: 0;
+}
+footer div#c nav ul.menu-rodape li a{
+    color: black;
+    text-decoration: none;
+}
+
+
+footer div#b nav a{
+    color: black;
+    float: right;
+    font-size: 2rem;
+    padding: 10px;
+    margin: 15px 0 0 0;
+}
+footer div#c nav ul li a{
     color: black;
 }
-section.w div#c nav ul li a{
+footer div#d nav ul li a{
     color: black;
 }
+footer div#e nav ul li a{
+    color: black;
+}
+footer div.f {
+    text-align: center;
+    padding-top: 1rem;
+}
+footer div.f a{
+    font-weight: bolder;
+    color: #FFF7E9;
+    text-decoration: none;
+
+
+
+}
+
