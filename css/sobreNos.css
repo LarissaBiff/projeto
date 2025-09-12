@@ -38,10 +38,12 @@ section#a ul li ul li{
     display: flex;
 }
 section#a ul li ul li img{
-    width: 10%;
+    width: 7%;
+    height: 7%;
+    margin: 2vw;
 }
 section#a ul li ul li p{
-   padding: 20px 30px 20px 30px;
+   padding: 2vw 3vw 2vw 3vw;
 }
 
 
