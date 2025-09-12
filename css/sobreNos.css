@@ -36,8 +36,7 @@ section#a ul li ul li{
     display: flex;
 }
 section#a ul li ul li img{
-    width: 13%;
-    border-bottom: none;
+    width: 10%;
 }
 section#a ul li ul li p{
    padding: 20px 30px 20px 30px;

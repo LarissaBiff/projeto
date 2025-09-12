@@ -112,6 +112,9 @@ section.w div#b p strong{
 section.w div#b nav a{
     color: black;
 }
-section.w div#c nav ul li a{
+section.w div nav ul li a{
+    color: black;
+}
+section.w div.f a{
     color: black;
 }
