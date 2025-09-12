@@ -1,9 +1,9 @@
 /* FORMATAÇÃO */
 html {
-    background-color: rgb(252, 243, 224);
+    background-color: #FEE5C1;
 }
 
-/* HEADER */
+/* HEADER 
 
 header {
     background-color: #FFC573;
@@ -19,19 +19,21 @@ header h1 {
     font-weight: bold;
     font-size: 2rem;
     font-family: Arial, Helvetica, sans-serif;
-}
+}*/
 
 /*TOPO*/
 
-nav ul li {
+section nav ul li {
     font-size: 1.5rem;
     padding: 20px 10px 9px 50px;
 }
-nav ul li a{
-        color: black;
+section nav ul li a{
+        color: #1B1B5C;
+        text-decoration: none;
+        font-weight: bold;
 }
 
-/*FOOTER*/
+/*FOOTER
 section.w {
     background-color: #8cab55;
     padding: 1.5rem;
@@ -50,4 +52,4 @@ section.w div#b nav a {
 
 section.w div#c nav ul li a {
     color: black;
-}
+}*/
