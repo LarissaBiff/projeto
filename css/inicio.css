@@ -77,38 +77,56 @@ header li {
 }
 
 /* TOPO */
+section.Principal h3 {
+    font-size: 2rem;
+    font-weight: bold;
+    padding-bottom: 1vw;
+}
 section#b {
     padding-left: 2vw;
-    font-size: 2rem;
+    line-height: 2.2rem;
+    padding-right: 5vw;
+    padding-bottom: 2vw;
 }
 section.Principal {
     background-color: #FECF8C;
-    font-size: 1.3rem;
-    font-size: 1.5rem;
+    font-size: 2rem;
     padding: 2rem;
     /* margin-top: 2rem; */
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
+    padding-bottom: 4.5vw;
 }
 
 section.Principal section#b h5 {
     font-size: 1.5rem;
     font-weight: bold;
 }
-
+section.Principal section#c {
+    line-height: 2.7rem;
+}
 section.Principal section#c h3 {
     font-weight: bold;
     padding: 23px 0 23px 0;
-    text-align: center;
-    font-size: 1.6rem;
-}
+    text-align: left;
+    font-size: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 2vw;
+    padding-bottom: 2vw;
+    }
 
 section.Principal section#c section#a {
     background-color: #FEE8C7;
     padding: 30px 30px 30px 30px;
     border-radius: 15px;
+    padding-bottom: 4vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
 }
-
+section.Principal section#c section#a p{
+    text-align: left;
+    padding-right: 4.6vw;
+}
 section.Principal section#c section#a img {
     border-radius: 25px;
     padding: 30px 0 0 0;
