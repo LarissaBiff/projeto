@@ -93,8 +93,7 @@ section.Principal {
     font-size: 2rem;
     padding: 2rem;
     /* margin-top: 2rem; */
-    border-bottom-left-radius: 25px;
-    border-bottom-right-radius: 25px;
+
     padding-bottom: 4.5vw;
 }
 
@@ -128,32 +127,59 @@ section.Principal section#c section#a p{
     padding-right: 4.6vw;
 }
 section.Principal section#c section#a img {
-    border-radius: 25px;
-    padding: 30px 0 0 0;
-    width: 100%;
+    border-radius: 30px;
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+    align-content: center;
+}
+section.Principal section#c section#a p#fonte {
+    padding-bottom: 2vw;
+    padding-top: 2vw;
+}
+section.Principal section#c section#a p#fronte {
+    padding-bottom: 3vw;
 }
 
 /*CONTEÚDO*/
+.primeiro {
+    font-size: 2.1rem;
+    padding-left: 20px;
+}
 section.alimentacao {
-    margin: 4vw;
     font-size: 1.5rem;
     line-height: 1.7rem;
-    padding: 10vw;
+    padding-left: 5vw;
+    font-size: 2rem;
+    padding-top: 6vw;
+    padding-right: 7vw;
+    background-color: #FECF8C;
+        border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    padding-bottom: 5vw;
 }
-
+section.alimentacao p.frase {
+    text-align: left;
+    padding-bottom: 2vw;
+}
 section.alimentacao iframe {
-    padding: 19px 0 25px 0;
-    width: 16vw;
+    display: block;
+    margin: 0;
+    width: 60%;
+    height: 30vw;
+    border-radius: 25px;
 }
-
+section.alimentacao div.l {
+    padding-top: 2vw;
+}
 section.alimentacao div.l a {
     color: #3F3F80;
+    text-decoration: none;
 }
 
 section.alimentacao p span {
     font-weight: bold;
 }
-
 
 /*PDF*/
 section#d {
