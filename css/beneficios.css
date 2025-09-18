@@ -105,18 +105,11 @@ section.beneficiosDiv {
     border-radius: 0 0 25px 25px;
 }
 img.grande {
-    width: 90% !important
-    ;
+    width: 90% !important;
 }
 img.pequeno {
     width: 90% !important;
 }
-
-
-
-
-
-
 html {
     background-color: rgb(252, 243, 224);
 }
