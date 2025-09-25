@@ -251,3 +251,42 @@ header ul li ul li a:hover, header ul li ul li a:focus {
     cursor: pointer;
     text-decoration: none;
 }
+
+/*
+<ul class="menu">
+        <li>
+            <a href="#">Home</a>
+        </li>
+        <li>
+            <a href="#">Serviço</a>
+
+            <ul>
+                <li>
+                    <a href="#">Sub</a>
+                </li>
+                <li>
+                    <a href="#">Sub</a>
+                </li>
+            </ul>
+        </li>
+         <li>
+            <a href="#">Teste</a>
+        </li>
+    </ul>
+
+    <style>
+ul.menu{
+    display: flex;
+}
+ul li ul{
+    display: none;
+}
+ul li{
+    position: relative;
+}
+ul li:hover ul{
+    display: block;
+    position: absolute;
+}
+    </style>
+*/
