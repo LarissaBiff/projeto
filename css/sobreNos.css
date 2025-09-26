@@ -97,17 +97,13 @@ section.projeto {
     font-size: 2rem;
     padding: 2vw 7vw 2vw 7vw;
     background-color: #fcce8e;
-    border-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
 }
 
 section.sobreOProjeto {
-<<<<<<< HEAD
-    padding: 2vw
-    ;
-=======
     background-color: rgb(252, 243, 224);
     padding: 2vw;
->>>>>>> 242bdca4bf426b3a4b315172f0cab157c4c63dfd
     border-radius: 25px;
 }
 section.links {
@@ -127,7 +123,22 @@ section.sobreOProjeto p {
 section.sobreOProjeto ul li {
     font-family: "Fira Sans", sans-serif !important;
 }
-
+section.sobreOProjeto h3 {
+    font-size: 3rem;
+    font-weight: bold;
+    padding-bottom: 2vw;
+}
+section.sobreOProjeto li {
+    padding-bottom: 2vw;
+}
+section.sabermais h3 {
+    font-size: 3rem;
+    padding-bottom: 2vw;
+    font-weight: bold;
+}
+section.sabermais p {
+    padding-bottom: 2vw;
+}
 /*FOOTER*/
 
 

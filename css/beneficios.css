@@ -2,7 +2,9 @@
 html {
     font-family: "Labrada", serif;
 }
-
+main {
+    line-height: 3rem !important;
+}
 header {
     background-color: #FFC573;
     font-size: 1.5rem;

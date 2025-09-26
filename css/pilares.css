@@ -110,10 +110,10 @@ section#Priorize {
 section#Priorize img {
     border-radius: 25px;
     padding: 10px 10px 10px;
-    width: 45%;
+    width: 50%;
     align-items: center;
     display: block;
-    margin-left: 35%;
+    margin-left: 20%;
 }
 
 /*CONTEÚDO*/
@@ -130,7 +130,9 @@ section#Priorize ol li iframe {
     align-items: left;
     margin-left: 35%;
 }
-
+.banana1 li {
+    background-color: #414183;
+}
 
 section#Priorize ol li p {
     margin: 0vw 5vw 2.5vw 5vw;
