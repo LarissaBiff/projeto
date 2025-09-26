@@ -109,6 +109,9 @@ section.sobreOProjeto {
 section.links {
     padding-top: 4vw;
 }
+section.links p {
+    padding-bottom: 2vw;
+}
 
 /*FOOTER*/
 
