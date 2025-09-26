@@ -96,12 +96,11 @@ section#a img {
 section.projeto {
     font-size: 2rem;
     padding: 2vw 7vw 2vw 7vw;
-    background-color: #FECF8C;
+    background-color: #fcce8e;
     border-radius: 25px;
 }
 
 section.sobreOProjeto {
-    background-color: rgb(252, 243, 224);
     padding: 2vw
     ;
     border-radius: 25px;
@@ -111,6 +110,17 @@ section.links {
 }
 section.links p {
     padding-bottom: 2vw;
+}
+section.sobreOProjeto h2 {
+    font-size: 3rem;
+    font-weight: bold;
+    padding-bottom: 2vw;
+}
+section.sobreOProjeto p {
+    padding-bottom: 2vw;
+}
+section.sobreOProjeto ul li {
+    font-family: "Fira Sans", sans-serif !important;
 }
 
 /*FOOTER*/
