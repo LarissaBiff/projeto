@@ -12,69 +12,6 @@ html {
 }
 
 
-header {
-    background-color: #FFC573;
-    font-size: 1.5rem;
-    border-radius: 0 0 5vw 5vw;
-    padding-bottom: 4vw;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-header h1 {
-    font-weight: bold;
-    font-size: 2rem;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-header {
-    background-color: #FFC573;
-    padding-bottom: 1vw;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-radius: 0 0 20px 20px;
-    color: white;
-    text-decoration: none;
-}
-
-header div.abertura {
-    display: flex;
-    padding-left: 5vw;
-    align-items: center;
-    padding-top: 2vw;
-}
-
-header h1 {
-    font-weight: bold;
-    font-size: 2.3rem !important;
-    font-family: "Labrada", serif !important;
-    padding-left: 5vw;
-}
-
-header a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-header ul {
-    padding-top: 2vw;
-    display: flex;
-}
-
-header li {
-    padding-right: 2vw;
-    padding-left: 2vw;
-}
-
-.inicioLi {
-    color: #FFC573;
-    background-color: white;
-    border-radius: 10px;
-    padding: 5px 10px 5px 10px;
-}
 
 /* TOPO */
 section.Principal h3 {

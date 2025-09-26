@@ -62,6 +62,7 @@ header a {
     transition: background 0.2s, color 0.2s;
     padding: 5px 10px 5px;
     border-radius: 8px;
+    font-size: 1.3rem !important;
 }
 header a:hover, header a:focus, header a.active {
     background: white !important;
