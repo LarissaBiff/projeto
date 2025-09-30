@@ -44,9 +44,15 @@ main.quiz {
 .quiz h1 {
     background-color: #FEE5C1;
 }
-
+.quiz h2 {
+    font-size: 2rem;
+}
 footer.quiz {
     background-color: #FEE5C1;
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
+}
+.quiz ul li {
+    display: flex;
+    flex-direction: column;
 }
