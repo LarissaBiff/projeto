@@ -258,7 +258,7 @@ header ul li ul li {
 /* links do submenu – mesma formatação dos links principais */
 header ul li ul li a {
     display: block;
-    padding: 10px 20px;
+    padding: 7px 16px;
     border-radius: 8px;
     font-weight: bold;
     text-decoration: none;

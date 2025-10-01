@@ -2,16 +2,17 @@
 
 main {
     text-align: center;
-    align-items: center;
 }
+
 main.questionario p {
     font-size: 2rem;
     padding-bottom: 6vw;
     text-align: justify;
     padding-right: 8vw;
     padding-left: 8vw;
-    
+
 }
+
 main.questionario h2 {
     font-size: 4rem;
     font-family: "Martian Mono", monospace !important;
@@ -19,11 +20,13 @@ main.questionario h2 {
     padding-bottom: 5vw;
     font-weight: bold;
 }
+
 section.questionarioPrincipal {
     padding-bottom: 10vw;
     padding-left: 7vw;
     padding-right: 7vw;
 }
+
 main.questionario button {
     background-color: #8cab55;
     padding: 3vw 12vw;
@@ -32,27 +35,92 @@ main.questionario button {
     color: white;
     font-size: 3rem;
     font-family: "Martian Mono", monospace !important;
-    
+    cursor: pointer;
 }
 
 
 /* =========================================================== QUIZZZ PRINCIPAL ============================================================ */
 
-main.quiz {
-    background-color: #8cab55;
+body.quizzz {
+    background-color: #8cab55 !important;
+    font-family: "Martian Mono", monospace !important;
+    margin: 0;
+    padding: 0;
 }
+
 .quiz h1 {
     background-color: #FEE5C1;
+    padding: 2vw 3vw;
+    border-radius: 20px;
+    display: inline-block;
+    font-size: 3.5rem;
+    margin-top: 2vw;
 }
+
 .quiz h2 {
     font-size: 2rem;
+    padding-top: 4vw;
+    color: white;
+    font-size: 3.4rem;
+    padding-bottom: 2vw;
 }
-footer.quiz {
+
+.quiz h3 {
+    color: white;
+    font-size: 2rem;
+    padding-bottom: 5vw;
+}
+
+footer.footer {
     background-color: #FEE5C1;
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
+    padding: 2.5vw 15vw;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 1.2rem;
 }
+
+.footer h2 {
+    font-size: 1rem;
+
+    font-family: "Labrada", serif;
+    padding-top: 2vw;
+    color: gray;
+}
+
+.footer a {
+    text-decoration: none;
+}
+
 .quiz ul li {
     display: flex;
     flex-direction: column;
+    padding-bottom: 0.3vw;
+}
+
+.quiz ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 0;
+    list-style: none;
+}
+
+.quiz button {
+    width: 10vw;
+    height: 3.4vw;
+    font-size: 1.5rem;
+    border-radius: 15px;
+    background-color: #FFF7E9;
+    color: #8cab55;
+    ;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+.ultimo {
+    padding-bottom: 5vw !important;
 }
