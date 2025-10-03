@@ -56,6 +56,7 @@ section#a h3 {
 
 section#a ul li {
     display: flex;
+    
 }
 
 section#a ul li img {
@@ -139,6 +140,9 @@ section.sabermais h3 {
 section.sabermais p {
     padding-bottom: 2vw;
 }
+
+
+
 /*FOOTER*/
 
 

@@ -319,3 +319,11 @@ body,
 main {
     padding: 0 !important;
 }
+main li p {
+    transition: transform 0.2s ease, background-color 0.2s;
+  }
+
+main li p:hover {
+    transform: scale(1.02);
+    box-shadow: 0px 6px 2px 1px #3b3b3bb0;
+  }

@@ -222,20 +222,19 @@ footer div.f a {
 }
 
 
-/* mantém a posição de referência no pai */
+/*======================================= SUBMENU =============================================== */
+
 header ul li {
     position: relative;
     
 }
 
-/* submenu escondido com opacidade */
 header ul li ul {
     position: absolute;
     top: calc(100% + 1vw);
     left: 0;
     margin: 0;
     padding: 0;
-    
     opacity: 0;
     visibility: hidden;
     transition: opacity 0.3s ease, visibility 0.3s ease;
@@ -244,19 +243,16 @@ header ul li ul {
     gap: 5px;
 }
 
-/* mostra o submenu quando o pai está ativo */
 header ul li:hover > ul,
 header ul li:focus-within > ul {
     opacity: 1;
     visibility: visible;
 }
 
-/* itens do submenu iguais aos outros */
 header ul li ul li {
     list-style: none;
 }
 
-/* links do submenu – mesma formatação dos links principais */
 header ul li ul li a {
     display: block;
     padding: 7px 16px;
@@ -268,69 +264,21 @@ header ul li ul li a {
     transition: background 0.2s, color 0.2s;
 }
 
-/* hover no submenu */
 header ul li ul li a:hover {
     background: #FFC573;
     color: white;
 }
 
-/* mantém o pai ativo branco com texto laranja */
 header ul li:hover > a,
 header ul li:focus-within > a {
     background: white !important;
     color: #FFC573 !important;
 }
 
-/* adicionando delay para sumir */
+
 header ul li ul {
-    transition-delay: 0.3s; /* espera 0.3s antes de sumir */
+    transition-delay: 0.3s; 
 }
 
 
-
-
-
-
-
-
-
-
-
-/*
-<ul class="menu">
-        <li>
-            <a href="#">Home</a>
-        </li>
-        <li>
-            <a href="#">Serviço</a>
-
-            <ul>
-                <li>
-                    <a href="#">Sub</a>
-                </li>
-                <li>
-                    <a href="#">Sub</a>
-                </li>
-            </ul>
-        </li>
-         <li>
-            <a href="#">Teste</a>
-        </li>
-    </ul>
-
-    <style>
-ul.menu{
-    display: flex;
-}
-ul li ul{
-    display: none;
-}
-ul li{
-    position: relative;
-}
-ul li:hover ul{
-    display: block;
-    position: absolute;
-}
-    </style>
-*/
+/* ============================================== MEDIA ============================================== */
