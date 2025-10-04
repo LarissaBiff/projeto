@@ -1,42 +1,49 @@
-body {
-    font-family: Arial, sans-serif;
-    background-color: #fefefe;
-    margin: 0;
-    padding: 20px;
+
+
+
+
+
+
+
+
+
+
+section ul.lista-receitas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 3vw 7vw;
+    list-style: none;
 }
 
-.galeria {
-    display: block;
-    gap: 20px;
+section ul.lista-receitas li {
+    text-align: center;
+    flex: 1 1 200px;
+    max-width: 250px;
 }
 
-.galeria-row {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 20px;
-    margin-bottom: 20px;
+section ul.lista-receitas img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
 }
 
-@media (max-width: 1100px) {
-    .galeria-row { grid-template-columns: repeat(4, 1fr); }
-}
-@media (max-width: 800px) {
-    .galeria-row { grid-template-columns: repeat(3, 1fr); }
-}
-@media (max-width: 480px) {
-    .galeria-row { grid-template-columns: repeat(2, 1fr); }
-}
-/*    Inicio    */
-
-body{
-    background: #FFF7E9D9;
+section ul.lista-receitas img:hover {
+    transform: scale(1.05);
 }
 
-section.inicio{
-    background: #FECF8C;
-    font-size: 2.3rem;
-    font-size: 1.5rem;
-    padding: 2rem;
-    border-bottom-left-radius: 25px;
-    border-bottom-right-radius: 25px;
+section ul.lista-receitas h2 {
+    font-weight: bold;
+    margin-top: 10px;
+    font-size: 1.2rem;
+    
+    text-decoration: none;
+}
+
+section ul.lista-receitas a {
+    text-decoration: none;
+    color: inherit;
 }
