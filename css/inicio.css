@@ -20,7 +20,7 @@ section.Principal h3 {
     padding-bottom: 1vw;
 }
 
-section#b {
+section#f {
     padding-left: 2vw;
     line-height: 2.2rem;
     padding-right: 5vw;
@@ -41,11 +41,11 @@ section.Principal section#b h5 {
     font-weight: bold;
 }
 
-section.Principal section#c {
+section.Principal section#m {
     line-height: 2.7rem;
 }
 
-section.Principal section#c h3 {
+section.Principal section#m h3 {
     font-weight: bold;
     padding: 23px 0 23px 0;
     text-align: left;
@@ -55,22 +55,29 @@ section.Principal section#c h3 {
     padding-bottom: 2vw;
 }
 
-section.Principal section#c section#a {
+section.Principal  section#m {
     background-color: #FEE8C7;
     padding: 30px 30px 30px 30px;
     border-radius: 15px;
     padding-bottom: 4vw;
     padding-left: 5vw;
     padding-right: 5vw;
+
+    transition: transform 0.2s ease, background-color 0.2s;
 }
 
-section.Principal section#c section#a p {
+section.Principal  section#m:hover {
+    transform: scale(1.01);
+    box-shadow: 0px 6px 2px 1px #3b3b3bb0;
+}
+
+section.Principal  section#m p {
     text-align: left;
     padding-right: 4.6vw;
     text-align: justify;
 }
 
-section.Principal section#c section#a img {
+section.Principal  section#m img {
     border-radius: 30px;
     width: 80%;
     display: block;
@@ -78,12 +85,12 @@ section.Principal section#c section#a img {
     align-content: center;
 }
 
-section.Principal section#c section#a p#fonte {
+section.Principal section#m p#fonte {
     padding-bottom: 2vw;
     padding-top: 2vw;
 }
 
-section.Principal section#c section#a p#fronte {
+section.Principal section#m p#fronte {
     padding-bottom: 3vw;
 }
 
