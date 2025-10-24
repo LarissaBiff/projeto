@@ -39,13 +39,13 @@ section.cardbox {
     border-radius: 50px;
 }
 
-section#a {
+section#somos {
     font-size: 1.5rem;
     padding: 3rem;
     margin-top: 2rem;
 }
 
-section#a h3 {
+section#somos h3 {
     font-weight: bold;
     padding: 0 0 20px;
     background-image: url('../scr/fundo para pc.png');
@@ -54,19 +54,19 @@ section#a h3 {
     background-repeat: no-repeat;
 }
 
-section#a ul li {
+section#somos ul li {
     display: flex;
     
 }
-section#a ul li p{
+section#somos ul li p{
         transition: transform 0.2s ease, background-color 0.2s
 }
 
-section#a ul li p:hover {
+section#somos ul li p:hover {
     transform: scale(1.01);
     box-shadow: 0px 6px 2px 1px #3b3b3bb0;
 }
-section#a ul li img {
+section#somos ul li img {
     width: 80px;
     height: 80px;
     object-fit: cover;
@@ -74,11 +74,11 @@ section#a ul li img {
 
 }
 
-section#a ul li div img {
+section#somos ul li div img {
     width: 30%;
 }
 
-section#a ul li p {
+section#somos ul li p {
     padding: 2vw 3vw 2vw 3vw;
     margin: 2vw;
 
@@ -88,16 +88,16 @@ section#a ul li p {
     line-height: 1;
 }
 
-section#a ul li ul li p strong {
+section#somos ul li ul li p strong {
     font-weight: bold;
 }
 
-section#a ul {
+section#somos ul {
     list-style: none !important;
     padding-left: 0;
 }
 
-section#a img {
+section#somos img {
     width: 50%;
 }
 
