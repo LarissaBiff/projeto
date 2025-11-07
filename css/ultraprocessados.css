@@ -10,15 +10,15 @@ main {
     padding: 0 7vw;
     font-size: 2rem;
 }
-section.BAlimentos img {
+div.BAlimentos img {
     margin: 2vw 0 1vw 10vw;
     border-radius: 25px;
     width: 70%;
 }
-.BAlimentos {
+div.BAlimentos {
     padding: 0 7vw;
 }
-section.BAlimentos p {
+div.BAlimentos p {
     margin: 3vw 7vw 3vw 1vw;
 }
 
