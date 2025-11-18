@@ -103,14 +103,6 @@ section.alimentacao p.frase {
     padding-bottom: 4vw;
 }
 
-section.alimentacao iframe {
-    display: block;
-    margin: 0;
-    width: 60%;
-    height: 30vw;
-    border-radius: 25px;
-}
-
 p.necessario {
     padding-top: 3vw;
 
